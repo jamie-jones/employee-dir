@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import EmployeesResults from "./components/EmployeesResults";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           ></input>
         </section>
       </header>
+      <div>
+        <EmployeesResults/>
+      </div>
     </div>
   );
 }
