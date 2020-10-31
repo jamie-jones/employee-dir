@@ -1,11 +1,16 @@
+import "./Employees.css"
+
+
 function Employees(props) {
+
     return (
-        <>
+      <>
+        <main className="container">
 <table class="table table-striped">
   <thead>
     <tr>
       <th scope="col">Image</th>
-      <th scope="col">Name</th>
+      <th scope="col" onClick={() => sortedEmployee('name')}>Name</th>
       <th scope="col">Phone</th>
       <th scope="col">Email</th>
       <th scope="col">DOB</th>
@@ -13,7 +18,7 @@ function Employees(props) {
   </thead>
   <tbody>
     <tr>
-      <th scope="row"><img alt="thumbnail" className="img-fluid" src={props.image} /></th>
+      <th><img alt="thumbnail" className="img-fluid" src={props.image}/></th>
       <td>{props.name}</td>
       <td>{props.phone}</td>
       <td>{props.email}</td>
@@ -21,6 +26,7 @@ function Employees(props) {
     </tr>
   </tbody>
 </table>
+      </main>
       </>
     );
   };

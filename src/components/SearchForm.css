@@ -1,0 +1,12 @@
+  
+  .input-section {
+    background-color: rgb(231, 231, 231);
+    height: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .search-input {
+    width: 20% !important;
+    justify-content: center;
+  }

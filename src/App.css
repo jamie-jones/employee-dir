@@ -1,21 +1,12 @@
 .header-section {
-  background-color: rgb(11, 27, 54);
-  height: 130px;
-  border-bottom: 5px solid red;
-}
-
-h1,
-p {
-  text-align: center;
-  color: white;
-}
-
-.input-section {
-  background-color: rgb(231, 231, 231);
-  height: 50px;
-}
-
-.search-input {
-  width: 20% !important;
-  justify-items: center;
-}
+    background-color: rgb(11, 27, 54);
+    height: 130px;
+    border-bottom: 5px solid red;
+  }
+  
+  h1,
+  p {
+    text-align: center;
+    color: white;
+  }
+  

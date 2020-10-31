@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import EmployeesResults from "./components/EmployeesResults";
+// import SearchForm from "./components/SearchForm";
 
 function App() {
   return (
@@ -13,16 +14,12 @@ function App() {
             narrow your results
           </p>
         </section>
-        <section className="input-section">
-          <input
-            type="search"
-            class="form-control search-input"
-            placeholder="Search"
-          ></input>
-        </section>
+        {/* <section>
+          <SearchForm />
+        </section> */}
       </header>
       <div>
-        <EmployeesResults/>
+        <EmployeesResults />
       </div>
     </div>
   );
