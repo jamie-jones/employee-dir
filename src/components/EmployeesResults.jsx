@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import API from "../utils/API";
 import Employees from "./Employees";
+import "./EmployeesResults.css"
 
 
 
@@ -29,20 +30,24 @@ handleInputChange = event => {
   })
 }
 
-// sortedNames() {
-//   const sortedEmployee = employee.sort(function(a, b) {
-//     var nameA = a.name.toUpperCase(); // ignore upper and lowercase
-//     var nameB = b.name.toUpperCase(); // ignore upper and lowercase
-//     if (nameA < nameB) {
-//       return -1; //nameA comes first
-//     }
-//     if (nameA > nameB) {
-//       return 1; // nameB comes first
-//     }
-//     return 0;  // names must be equal
-//   });
-// }
-
+sortEmployees = (event) => {
+  const value = event.target.value;
+  const filteredResults = this.state.results.sort(function(a, b) {
+    var nameA = a.name.first.toUpperCase();
+    var nameB = b.name.first.toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0
+  })
+  this.setState({
+    search: value,
+    filteredResults: filteredResults,
+  });
+};
 
 render() {
   return (
@@ -60,6 +65,8 @@ render() {
         />
       </section>
     </form>
+    <button type="button" class="btn btn-outline-primary" onClick={this.sortEmployees}>Sort by Name</button>
+    {/* <button onClick={this.sortEmployees}>Sort</button> */}
     <div>
     {this.state.filteredResults.map(employee => (
       <Employees
