@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Employee Directory ![License](https://img.shields.io/badge/MIT-jamjon94-green)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DESCRIPTION
 
-## Available Scripts
+This application is great for employers who need to sort and search through a list of their employees! It is currently made with an employee generator, but in the future we may be able to incorporate an adding function so that one can add their actual employees instead!
 
-In the project directory, you can run:
+This project was made with React and was very difficult to accomplish, but I am proud to have done so and feel like this homework helped me understand React more!
 
-### `npm start`
+## TABLE OF CONTENTS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+\*[Usage](#Usage)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+\*[License](#License)
 
-### `npm test`
+\*[Contributing](#Contributing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+\*[Questions](#Questions)
 
-### `npm run build`
+## LAYOUT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Official site: https://jamjon94.github.io/employee-dir/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here's what the application looks like!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![employee-directory](public/employee-dir.png "Employee Directory")
 
-### `npm run eject`
+## INSTALLATION
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+All you need to do to use this application is type in the site's directory or find it on my GitHub, linked below!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## USAGE
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application is made to search and sort a list of employees.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## LICENSE
 
-## Learn More
+This application is licensed under the MIT license.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Find out more about the license here:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(https://opensource.org/licenses/MIT)
 
-### Code Splitting
+## CONTRIBUTING
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I want to thank the other classmates from the Boot Camp who come together to work as a team, answer questions anyone has, and helps however they could!
 
-### Analyzing the Bundle Size
+## QUESTIONS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For any questions, contact me:
 
-### Making a Progressive Web App
+Github: https://www.github.com/jamjon94
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+email: jamie.mar.jones14@gmail.com
